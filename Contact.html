@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Contact</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-800 text-white">
+    <nav class="bg-gray-800 w-full sm:h-[75px] h-[60px] border-b nav">
+        <div class="w-[95vw] md:w-[80vw] mx-auto flex h-full items-center justify-between">
+          <h1 class="text-gray-200 md::text-2xl text-lg hover:text-orange-200 cursor-pointer">
+            <a href="/"> Usman's Portfolilo</a>
+          </h1>
+          <ul id="list"
+            class="text-gray-200 flex md:gap-3 gap-0 flex-col md:flex-row absolute md:static *:cursor-pointer bg-gray-800 md:bg-transparent w-[100vw] md:w-auto z-10 -top-[600px] right-0 *:border *:p-2 transition-all *:md:border-0 *:md:p-0 *:md:px-2 *:md:py-1 text-sm md:text-base rounded border-[1px] md:border-0">
+            <li class="hover:text-orange-200"><a href="/about.html">About</a></li>
+            <li class="hover:text-orange-200">
+              <a href="projects.html">projects</a>
+            </li>
+            <li class="hover:text-orange-200"><a href="skill.html">Skills</a></li>
+            <button class="bg-orange-600 px-2 py-1 rounded font-bold text-center shadow-md">
+              <a href="Contact.html">Contact</a>
+            </button>
+          </ul>
+          <img id="hamburger" src="./hamburger.svg" class="h-8 invert md:hidden cursor-pointer transition-all"
+            alt="" />
+        </div>
+      </nav>
+      <div class="h-[calc(100vh-70px)] container mx-auto pt-[50px] relative bg-gray-800 bn">
+        <h1 class="text-center font-bold text-2xl">Contact</h1>
+        <div class="w-[90vw] sm:w-[50vw] mt-16 mx-auto flex gap-3 flex-col relative">
+          <form class="flex flex-col gap-3" action="(link unavailable)" method="POST">
+            <input type="text" placeholder="name" name="name" class="text-inherit border-[1px] bg-transparent p-1 rounded w-full" />
+            <div class="text-red-500 text-sm" id="name-error"></div>
+            <input type="email" placeholder="example@gmail.com" name="email" class="text-inherit border-[1px] bg-transparent p-1 rounded w-full" autocomplete="false" />
+            <div class="text-red-500 text-sm" id="email-error"></div>
+            <textarea placeholder="Message" name="message" class="text-inherit border-[1px] bg-transparent p-1 rounded h-48 w-full" autocomplete="false"></textarea>
+            <div class="text-red-500 text-sm" id="message-error"></div>
+            <input class="bg-orange-600 w-fit px-2 py-1 rounded text-white" type="submit" value="Submit" />
+            <div class="text-green-500 text-sm mt-2" id="success-message"></div>
+            <div class="text-red-500 text-sm mt-2" id="error-message"></div>
+          </form>
+        </div>
+      </div>
+     <script src="main.js"></script>
+     <script src="New.js"></script>
+</body>
+</html>

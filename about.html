@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+
+  <body class="bg-gray-800 an">
+    <nav class="bg-gray-800 w-full sm:h-[75px] h-[60px] border-b nav">
+      <div
+        class="w-[95vw] md:w-[80vw] mx-auto flex h-full items-center justify-between"
+      >
+        <h1
+          class="text-gray-200 md::text-2xl text-lg hover:text-orange-200 cursor-pointer"
+        >
+          <a href="/index.html"> Usman's Portfolilo</a>
+        </h1>
+        <ul
+          id="list"
+          class="text-gray-200 flex md:gap-3 gap-0 flex-col md:flex-row absolute md:static *:cursor-pointer bg-gray-800 md:bg-transparent w-[100vw] md:w-auto z-10 -top-[600px] right-0 *:border *:p-2 transition-all *:md:border-0 *:md:p-0 *:md:px-2 *:md:py-1 text-sm md:text-base rounded border-[1px] md:border-0"
+        >
+          <li class="hover:text-orange-200 text-orange-200"><a href="/about.html">About</a></li>
+          <li class="hover:text-orange-200"><a href="projects.html">projects</a></li>
+          <li class="hover:text-orange-200"><a href="skill.html">Skills</a></li>
+          <button class="bg-orange-600 px-2 py-1 rounded text-center shadow-md text-white">
+            <a href="Contact.html">Contact</a>
+          </button>
+        </ul>
+        <img
+          id="hamburger"
+          src="./hamburger.svg"
+          class="h-8 invert md:hidden cursor-pointer transition-all"
+          alt=""
+        />
+      </div>
+    </nav>
+    <main
+      class="bg-gray-800 min-h-[calc(100vh-60px)] sm:min-h-[calc(100vh-75px)] w-[90vw] md:w-[80vw] mx-auto text-white flex flex-col-reverse md:flex-row justify-end md:pt-36"
+    >
+      <div class="left w-full p-2 md:text-left md:w-[40vw] pr-10 ln">
+        <span class="text-3xl md:text-[35px]"
+          >Any type of question & Discussion.</span
+        >
+        <br /><br />
+        <span class="text-xl text-gray-300">Lets Talk</span>
+        <div class="w-full border-b-2 border-orange-600"></div>
+        <ul class="pt-7 w-[95vw] md:w-auto">
+          <li>
+            <img
+              src="/icons8-whatsapp-150.png"
+              alt=""
+              class="w-6 inline"
+            />
+            <span class="text-orange-600 text-base sm:text-xl cursor-pointer"
+              >Whatsapp:</span
+            ><span
+              class="cursor-pointer hover:text-orange-200 text-xs sm:text-base"
+              >+92 303 9027501</span
+            >
+          </li>
+          <li
+            class="border-2 border-orange-600 px-2 py-1 my-2 w-fit rounded hover:bg-orange-600 cursor-pointer"
+          >
+            <a href="https://www.github.com/usman22209"
+              ><img
+                src="/icons8-github-96.png"
+                class="w-6 inline mx-1"
+                alt=""
+              />Visit Github</a
+            >
+          </li>
+          <li class="px-2 py-1 border-2 border-orange-600 hover:bg-orange-600 w-fit rounded my-1"><a href="https://www.linkedin.com/in/usman22209"><img src="/icons8-linkedin.svg" class="w-6 inline" alt=""> Visit LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-[40vw] mt-20 md:mt-0 rn">
+        <span class="text-3xl pl-2 text-orange-600">About me:</span><br />
+        <br /><span
+          >I'm a junior frontend enthuiast specializing in React,constantly
+          seeking new challenges and opportunities to refine my craft and make
+          an impact</span
+        >
+        <ul class="*:mt-2">
+          <li>
+            <span class="text-orange-600 cursor-pointer">Name:</span
+            ><span>Usman Shafiq</span>
+          </li>
+          <li>
+            <span class="text-orange-600 cursor-pointer">Email:</span
+            ><span>usman22209@gmail.com</span>
+          </li>
+          <li>
+            <span class="text-orange-600">Education</span
+            ><span>BS-IT(continued)</span>
+          </li>
+        </ul>
+        <button class="px-2 py-1 bg-orange-700 rounded my-3">
+          <a href="/Usman's CV.pdf" download="CV.pdf">Download CV</a>
+        </button>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
