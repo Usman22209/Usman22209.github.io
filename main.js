@@ -125,11 +125,7 @@ let index = 0;
 function changeBackGround() {
   const images = [
     "/Textify_Dark.png",
-    "/Textify_Light.png",
-    "/Textify_Dark_Contact.png",
-    "/Textify_Light_Contact.png",
-    "/Textify_Dark_About.png",
-    "/Textify_Light_About.png",
+    "/Textify_Light.png"
   ];
   document.getElementById(
     "container1"
@@ -141,7 +137,6 @@ function changeBackGround2() {
   const images = [
     "/Spotify0.png",
     "/Spotify1.png",
-    "/Spotify2.png",
   ];
   document.getElementById(
     "spotify"
@@ -152,12 +147,7 @@ let index3 = 0;
 function changeBackGround3() {
   const images = [
     "/toon1.png",
-    "/toon2.png",
-    "/toon3.png",
-    "/toon4.png",
-    "/toon5.png",
-    "/toon6.png",
-    "/toon7.png",
+    "/toon2.png"
   ];
   document.getElementById(
     "toon"
@@ -168,10 +158,7 @@ let index4 = 0;
 function changeBackGround4() {
   const images = [
     "/weather1.png",
-    "/weather2.png",
-    "/weather3.png",
-    "/weather4.png",
-    "/weather5.png"
+    "/weather2.png"
   ];
   document.getElementById(
     "weather"
