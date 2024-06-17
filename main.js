@@ -146,8 +146,8 @@ function changeBackGround2() {
 let index3 = 0;
 function changeBackGround3() {
   const images = [
-    "/toon1.png",
-    "/toon2.png"
+    "/Toon1.png",
+    "/Toon2.png"
   ];
   document.getElementById(
     "toon"
